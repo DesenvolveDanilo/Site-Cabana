@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <a class="logo" href="./index.html">cabanas da <span>montanha</span></a>
+
+            <ul class="lista">
+                <li><a href="sobre.html" target="blank">sobre</a></li>
+                <li><a href="./index.html#cab">Cabanas</a></li>
+                <li><a href="contato.html" target="blank">Contato</a></li>
+                <li><a href="lazer.html" target="blank">Lazer</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form name="contato" class="formulario">
+            <p><label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome...">
+            </p>
+
+            <p><label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Digite seu e-mail...">
+            </p>
+
+            <p><label for="tel">Telefone:</label>
+                <input type="text" id="tel" name="tel" placeholder="Digite seu telefone...">
+            </p>
+
+            <p><label for="msg">Mensagem:</label>
+                <textarea name="msg" placeholder="Digite sua mensagem..."></textarea>
+
+            <p><button onclick="alert('enviado')">enviar</button></p>
+        </form>
+        <!-- background  -->
+        <div class="fogueira-position">
+            <div id="fogueira-img"></div>
+        </div>
+    </main>
+
+</body>
+</html>
